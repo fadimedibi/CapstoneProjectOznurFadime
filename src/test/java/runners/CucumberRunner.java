@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features ="src/test/resources/features",
         glue = "stepDefinitions",
         dryRun =false,
-        tags = "@requestInfo",
+        tags = "@chatGPTValidation",
         plugin = {//"pretty",// prints Gherkin steps in console
                 "html:target/default-cucumber-reports",
                 "json:target/cucumber.json",
