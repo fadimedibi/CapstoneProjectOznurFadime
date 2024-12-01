@@ -41,7 +41,7 @@ public class LoginStepDefinitions {
 
     @Then("User enters valid password {string} in the password field")
     public void user_enters_valid_password_in_the_password_field(String string) {
-        loginPage.passwordBox.sendKeys(string);
+        loginPage.passwordBox.sendKeys(ConfigurationReader.getProperty("fadimePassword"));
         ReusableMethods.wait(3);
     }
 
