@@ -10,7 +10,7 @@ Feature: User login as a Student
   Scenario: Verify login is successful with valid credentials
     And User enters valid email address "fdibi@na.edu" in the email field
     And User press the Next button
-    And User enters valid password "Fadim3@230" in the password field
+    And User enters valid password "<fadimePassword>" in the password field
     And User press the Sign in button
     And User clicks on the No button
     Then page title should be "Home | Microsoft 365"
@@ -19,7 +19,7 @@ Feature: User login as a Student
   Scenario: Verify login is unsuccessful once user signs out
     And User enters valid email address "fdibi@na.edu" in the email field
     And User press the Next button
-    And User enters valid password "Fadim3@230" in the password field
+    And User enters valid password "<fadimePassword>" in the password field
     And User press the Sign in button
     And User clicks on the No button
     Then page title should be "Home | Microsoft 365"
