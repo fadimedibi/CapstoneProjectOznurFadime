@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
         glue = "stepDefinitions",
         plugin = {
                 "html:target/rerun-default-cucumber-reports",
+                "json:target/rerun-cucumber.json"
         }
 )
 

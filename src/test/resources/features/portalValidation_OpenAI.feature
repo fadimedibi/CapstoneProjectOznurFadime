@@ -1,4 +1,4 @@
-@chatGPTValidation
+@openAIValidation
 Feature: Validate tabs on NAU Portal
 
   Background:

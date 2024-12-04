@@ -10,10 +10,10 @@ import org.junit.runner.RunWith;
         glue = "stepDefinitions",
         dryRun = false,
 
-          tags = "@login", // Login Page
+        //  tags = "@login", // Login Page
         //  tags = "@dashboard", // Main Page
-        //  tags = "@requestInfo, // Request Info Page
-        //  tags = "@chatGPTValidation", //Portal Page AI Integration
+        // tags = "@requestInfo", // Request Info Page
+          tags = "@openAIValidation", //Portal Page AI Integration
         plugin = {//"pretty",// prints Gherkin steps in console
                 "html:target/default-cucumber-reports",
                 "json:target/cucumber.json",
